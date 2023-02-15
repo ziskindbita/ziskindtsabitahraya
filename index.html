@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    h1{
+        text-align: center;
+        background-color: aqua;
+        padding: 30px;
+        border: 2px solid blue;
+    }
+    nav{
+        text-align: center;
+        padding: 30px;
+    }   
+    a{
+        padding: 10px;
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        background-color: bisque;
+    }
+    main{
+        display: flex;
+        margin: 15px;
+    }
+    .sidebar{
+        background-color: grey;
+        padding: 15px;
+    }
+    .content{
+        background-color: lightskyblue ;
+        padding: 15px;
+    }
+    @media (max-width: 600px) {
+        main {
+        flex-direction: column;
+        }
+        h1{
+            background-color: blueviolet;
+        }
+    }
+    footer{
+        text-align: center;
+        background-color: brown;
+        padding: 25px;
+    }
+</style>
+</head>
+<body>
+<header>
+    <h1>Header</h1>
+</header>    
+<nav>
+    <a href="#">Home</a>
+    <a href="#">News</a>
+    <a href="#">About</a>
+</nav>
+<main>
+    <div class="sidebar">
+        <h4>sidebar</h4>
+    </div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quibusdam obcaecati ipsum tempora cupiditate vitae accusamus, corrupti ratione tempore a delectus! Laborum non aspernatur quidem veritatis quam saepe, beatae praesentium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quibusdam obcaecati ipsum tempora cupiditate vitae accusamus, corrupti ratione tempore a delectus! Laborum non aspernatur quidem veritatis quam saepe, beatae praesentium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quibusdam obcaecati ipsum tempora cupiditate vitae accusamus, corrupti ratione tempore a delectus! Laborum non aspernatur quidem veritatis quam saepe, beatae praesentium?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quibusdam obcaecati ipsum tempora cupiditate vitae accusamus, corrupti ratione tempore a delectus! Laborum non aspernatur quidem veritatis quam saepe, beatae praesentium?</p>
+    </div>
+</main>
+<footer>Copyright</footer>
+</body>
+</html>

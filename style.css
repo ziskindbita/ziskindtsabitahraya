@@ -1,0 +1,36 @@
+html {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-image: radial-gradient(rgb(73, 35, 0), rgb(230, 153, 66));
+    background-color: black;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+a {
+    background-color: white;
+    padding: 8px;
+    border-radius: 50%;
+    color: black;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+}
+
+footer {
+    padding: 16px;
+}
